@@ -32,6 +32,7 @@
             this.picCanvas = new System.Windows.Forms.PictureBox();
             this.tmrQuickSort = new System.Windows.Forms.Timer(this.components);
             this.btnQuickSort = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picCanvas)).BeginInit();
             this.SuspendLayout();
             // 
@@ -42,6 +43,7 @@
             this.picCanvas.Size = new System.Drawing.Size(715, 512);
             this.picCanvas.TabIndex = 0;
             this.picCanvas.TabStop = false;
+            this.picCanvas.Paint += new System.Windows.Forms.PaintEventHandler(this.picCanvas_Paint);
             // 
             // tmrQuickSort
             // 
@@ -57,11 +59,22 @@
             this.btnQuickSort.UseVisualStyleBackColor = true;
             this.btnQuickSort.Click += new System.EventHandler(this.btnQuickSort_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(751, 91);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(185, 40);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "HeapSort";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(989, 565);
+            this.ClientSize = new System.Drawing.Size(989, 560);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnQuickSort);
             this.Controls.Add(this.picCanvas);
             this.Name = "Form1";
@@ -76,6 +89,7 @@
         private System.Windows.Forms.PictureBox picCanvas;
         private System.Windows.Forms.Timer tmrQuickSort;
         private System.Windows.Forms.Button btnQuickSort;
+        private System.Windows.Forms.Button button1;
     }
 }
 

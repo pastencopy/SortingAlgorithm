@@ -23,13 +23,13 @@ namespace SortingAlgorithm
         public Data(int max)
         {
             this.Value = rnd.Next(1,max);
+
+            //Drawing
             this.dataState = STATE.NONE;
         }
 
         public int CompareTo(Data other)
         {
-            other.dataState = STATE.NONE;
-            this.dataState = STATE.NONE;
             return this.Value.CompareTo(other.Value);
         }
     }
