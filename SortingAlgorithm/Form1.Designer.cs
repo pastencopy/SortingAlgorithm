@@ -28,9 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.picCanvas = new System.Windows.Forms.PictureBox();
-            this.tmrQuickSort = new System.Windows.Forms.Timer(this.components);
             this.btnQuickSort = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picCanvas)).BeginInit();
@@ -44,10 +42,6 @@
             this.picCanvas.TabIndex = 0;
             this.picCanvas.TabStop = false;
             this.picCanvas.Paint += new System.Windows.Forms.PaintEventHandler(this.picCanvas_Paint);
-            // 
-            // tmrQuickSort
-            // 
-            this.tmrQuickSort.Interval = 10;
             // 
             // btnQuickSort
             // 
@@ -73,7 +67,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(989, 560);
+            this.ClientSize = new System.Drawing.Size(961, 560);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnQuickSort);
             this.Controls.Add(this.picCanvas);
@@ -87,7 +81,6 @@
         #endregion
 
         private System.Windows.Forms.PictureBox picCanvas;
-        private System.Windows.Forms.Timer tmrQuickSort;
         private System.Windows.Forms.Button btnQuickSort;
         private System.Windows.Forms.Button button1;
     }

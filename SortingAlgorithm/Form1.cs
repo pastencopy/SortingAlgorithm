@@ -1,4 +1,14 @@
-﻿using System;
+﻿/**
+ *  QuickSort / HeapSort
+ * 
+ *   2020-02-12 Coded by GwangSu Lee 
+ * 
+ * QuickSort Reference : https://en.wikipedia.org/wiki/Quicksort#Algorithm
+ * HeapSort Reference : https://en.wikipedia.org/wiki/Heapsort
+ * 
+ * */
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
