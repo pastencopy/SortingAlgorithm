@@ -1,10 +1,13 @@
 ﻿# SortingAlgorithm
 
- + QuickSort
- + HeapSort
-
+ 
 알고리즘 처리 상태를 시각화하여 볼 수 있습니다.
 
+![Screenshot Heapsort](screenshot_heapsort.png)
+
+
+ + QuickSort
+ + HeapSort
 
 QuickSort Reference : https://en.wikipedia.org/wiki/Quicksort#Algorithm
 
